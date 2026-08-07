@@ -1,0 +1,8 @@
+x = 10
+lr = 0.1
+
+for i in range(20):
+    grad = 2*x
+    x = x - lr*grad
+
+print("Optimized x =", round(x,4))
